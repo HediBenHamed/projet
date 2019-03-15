@@ -1,21 +1,17 @@
-#ifndef JEU_H_INCLUDED
-#define JEU_H_INCLUDED
+#ifndef JEU_H_
+#define JEU_H_
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
+#include <SDL/SDL_mixer.h>
+void sounds(SDL_Surface* ecran);
+void controls(SDL_Surface* ecran);
+void menu(SDL_Surface *ecran);
 void play(SDL_Surface* ecran);
-void choose();
-void jouer();
-
-
 void setting(SDL_Surface* ecran);
-void contols();
-void sound();
-void resolution();
-
-int menu();
 
 
-#endif // JEU_H_INCLUDED
+
+#endif /* JEU_H_ */
