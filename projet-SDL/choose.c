@@ -1,8 +1,8 @@
 #include "jeu.h"
-void play(SDL_Surface* ecran)
+void choose(SDL_Surface* ecran)
 {//void
-    SDL_Surface *background=NULL,*newgame = NULL, *continuer = NULL,*back=NULL;
-    SDL_Rect positionbackground,positionback,positioncontinuer,positionClic,positionnewgame;
+    SDL_Surface *background=NULL,*joueur1 = NULL, *joueur2 = NULL,*back=NULL;
+    SDL_Rect positionbackground,positionback,positionjoueur1,positionClic,positionjoueur2;
     SDL_Event event;
     int continuee = 1;
 
@@ -10,13 +10,13 @@ void play(SDL_Surface* ecran)
     positionbackground.x = 0;
     positionbackground.y = 0;
 
-    newgame=IMG_Load("newgame_boutton.png");
-    positionnewgame.x = 340;
-    positionnewgame.y = 310;
+    joueur1=IMG_Load("joueur.png");
+    positionjoueur1.x = 55;
+    positionjoueur1.y = 53;
 
-    continuer=IMG_Load("Continue_boutton.png");
-    positioncontinuer.x = 750;
-    positioncontinuer.y = 310;
+    joueur2=IMG_Load("joueur.png");
+    positionjoueur2.x = 955;
+    positionjoueur2.y = 25;
 
     back=IMG_Load("Back_boutton.png");
     positionback.x = 20;
@@ -36,13 +36,13 @@ while (continuee)
                 switch(event.key.keysym.sym)
                 {//switch 2
                     case SDLK_ESCAPE: // Veut arrêter le jeu
-                        menu(ecran);
+                        play(ecran);
                         break;
                     case SDLK_KP1: // Demande resolution
-                        choose(ecran);
+                        //jouer1(ecran);
                         break;
                     case SDLK_KP2: // Demande contols
-                        //jouer(ecran);
+                        //jouer2(ecran);
                         break;
 
 
@@ -55,14 +55,14 @@ while (continuee)
                              positionClic.x = event.button.x ;
                              positionClic.y = event.button.x;
 
-                    if(event.button.x >340&& event.button.x <625 && event.button.y >310&& event.button.y <390)
-                            {choose(ecran);}
+                    if(event.button.x >150&& event.button.x <340 && event.button.y >315&& event.button.y <550)
+                            {/*jouer1(ecran);*/}
 
-                     else if(event.button.x >750&& event.button.x <1035 && event.button.y >310&& event.button.y <390)
-                            {/*jouer(ecran);*/}
+                     else if(event.button.x >1045&& event.button.x <1235 && event.button.y >315&& event.button.y <550)
+                            {/*jouer2(ecran);*/}
 
                      else if (event.button.x >70&& event.button.x <210 && event.button.y >40&& event.button.y <95)
-                                {menu(ecran);}
+                                {play(ecran);}
 
 			}//if case
 			break;
@@ -71,16 +71,17 @@ while (continuee)
         // Effacement de l'écran
         SDL_FillRect(ecran, NULL, SDL_MapRGB(ecran->format, 0, 0, 0));
         SDL_BlitSurface(background, NULL, ecran, &positionbackground);
-        SDL_BlitSurface(newgame, NULL, ecran, &positionnewgame);
-        SDL_BlitSurface(continuer, NULL, ecran, &positioncontinuer);
+        SDL_BlitSurface(joueur1, NULL, ecran, &positionjoueur1);
+        SDL_BlitSurface(joueur2, NULL, ecran, &positionjoueur2);
         SDL_BlitSurface(back, NULL, ecran, &positionback);
+		
 
         SDL_Flip(ecran);
     }//while
 
     SDL_FreeSurface(background);
-    SDL_FreeSurface(newgame);
-    SDL_FreeSurface(continuer);
+    SDL_FreeSurface(joueur1);
+    SDL_FreeSurface(joueur2);
     SDL_FreeSurface(back);
 
     SDL_Quit();

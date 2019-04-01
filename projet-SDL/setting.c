@@ -47,7 +47,7 @@ while (continuer)
                         menu(ecran);
                         break;
                     case SDLK_KP1: // Demande resolution
-                        //resolution();
+                        resolution(ecran);
                         break;
                     case SDLK_KP2: // Demande contols
                         controls(ecran);
@@ -64,7 +64,7 @@ while (continuer)
                              positionClic.x = event.button.x ;
                              positionClic.y = event.button.x;
                     if(event.button.x >100&& event.button.x <390 && event.button.y >310&& event.button.y <390)
-                            {/*resolution();*/}
+                            {resolution(ecran);}
 
                      else if(event.button.x >525&& event.button.x <810 && event.button.y >310&& event.button.y <390)
                             {controls(ecran);}
