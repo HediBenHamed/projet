@@ -1,0 +1,2 @@
+
+int nombre(void);
