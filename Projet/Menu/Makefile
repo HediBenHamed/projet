@@ -5,3 +5,5 @@ main.o:main.c
 menu.o:menu.c
 	gcc -c menu.c -lSDL -lSDL_image -lSDL_mixer -g
 
+
+

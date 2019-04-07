@@ -6,14 +6,15 @@
 #include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
 #include <SDL/SDL_mixer.h>
-void sounds(SDL_Surface* ecran);
-void controls(SDL_Surface* ecran);
-void resolution(SDL_Surface* ecran);
-void choose(SDL_Surface* ecran);
-void menu(SDL_Surface *ecran);
-void play(SDL_Surface* ecran);
-void setting(SDL_Surface* ecran);
-void choose(SDL_Surface* ecran);
+void sounds(SDL_Surface* ecran,Mix_Chunk *son,Mix_Music *musique);
+void controls(SDL_Surface* ecran,Mix_Chunk *son,Mix_Music *musique);
+void resolution(SDL_Surface* ecran,Mix_Chunk *son,Mix_Music *musique);
+
+void menu(SDL_Surface *ecran,Mix_Music *musique);
+void play(SDL_Surface* ecran,Mix_Chunk *son,Mix_Music *musique);
+void setting(SDL_Surface* ecran,Mix_Chunk *son,Mix_Music *musique);
+void choose(SDL_Surface* ecran,Mix_Chunk *son,Mix_Music *musique);
+
 
 
 
