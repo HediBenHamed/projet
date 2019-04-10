@@ -1,0 +1,1 @@
+cd game;gcc m.c f.c -lSDL -lSDL_mixer -lSDL_image -lSDL_ttf -o prog;./prog
