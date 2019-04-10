@@ -1,0 +1,14 @@
+#include <SDL/SDL.h> 
+#include <SDL/SDL_image.h> 
+#include <SDL/SDL_mixer.h> 
+#include <SDL/SDL_ttf.h> 
+#include <time.h>  
+
+int deplacement_aleatoire (int positionmax, int positionmin ) 
+{
+int pos ; 
+srand (time(NULL)) ; 
+pos=rand()%(positionmax-positionmin+1)+positionmin; 
+return pos ; 
+} 
+

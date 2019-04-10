@@ -1,0 +1,144 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <SDL.h> 
+#include <SDL_image.h> 
+#include <scrolling.h> 
+#include "player.h"
+
+void mousemouvement(pers p,SDL_Surface *ecran)
+{
+    int continuer=1,d=0;
+    SDL_Event event;
+
+
+	SDL_BlitSurface(p.depart,NULL, ecran,&p.position_joueur);
+ SDL_EnableKeyRepeat(10,30);   	
+
+while (continuer)
+    {//while
+        SDL_WaitEvent(&event);
+        switch(event.type)
+            {//switch
+
+                case SDL_QUIT:
+                continuer = 0;
+                break;
+                case SDL_MOUSEMOTION :
+                   if (event.button.button==SDL_BUTTON_LEFT)
+         {
+            if (event.motion.x>position_joueur.x)
+                        { d=6 ;
+                            p=boujer(d,p);
+                            afficherperso(&p, d, ecran);}
+             else if (event.motion.x<position_joueur.x)
+                   {d=4 ;
+                    p=boujer(d,p);
+                            afficherperso(&p, d, ecran);}
+            else if (event.motion.y>position_joueur.y)
+                  {d=8;
+                    p=boujer(d,p);
+                            afficherperso(&p, d, ecran);}
+           else if (event.motion.y<position_joueur.y)
+                  {d=2;
+                    p=boujer(d,p);
+                            afficherperso(&p, d, ecran);}
+	 
+	
+
+            }
+	
+	SDL_Flip(ecran);
+}
+
+SDL_FreeSurface(ecran);
+SDL_Quit();
+
+}
+//fonction bouger
+pers boujer(int d, pers p)
+{
+
+if(d==6)
+{
+  p.right++;
+  p.position_joueur.x+=10;
+
+}
+else if(d==4)
+{
+	p.left++;
+	p.position_joueur.x-=10;
+}
+else if(d==8)
+{
+	p.up++;
+	p.position_joueur.y-=10;
+
+}
+else if(d==2)
+{
+	p.down++;
+	p.position_joueur.y+=10;
+
+}
+if(p.right==3)
+    {p.right=1;}
+
+if (p.left==3)
+    {p.left=1;}
+
+if (p.up==3)
+    {p.up=1;}
+
+if (p.down==3)
+    {p.down=1;}
+
+return p;
+}
+
+void afficherperso(pers *p,int d,SDL_Surface *ecran)
+{
+
+if(d==6)
+{
+	SDL_FillRect(ecran, NULL, SDL_MapRGB(ecran->format, 0, 0, 0));
+        SDL_BlitSurface(p->droite[p->right],NULL, ecran,&p->position_joueur);
+        SDL_Flip(ecran);
+
+
+        p->up=0;
+        p->down=0;
+        p->left=0;
+}
+
+else if (d==4)
+{
+	SDL_FillRect(ecran, NULL, SDL_MapRGB(ecran->format, 0, 0, 0));
+        SDL_BlitSurface(p->gauche[p->left],NULL, ecran,&p->position_joueur);
+        SDL_Flip(ecran);
+
+        p->up=0;
+        p->down=0;
+        p->right=0;
+}
+else if (d==8)
+{
+	SDL_FillRect(ecran, NULL, SDL_MapRGB(ecran->format, 0, 0, 0));
+        SDL_BlitSurface(p->haut[p->up],NULL, ecran,&p->position_joueur);
+        SDL_Flip(ecran);
+
+        p->up=0;
+        p->down=0;
+        p->left=0;
+}
+else if (d==2)
+{	
+	SDL_FillRect(ecran, NULL, SDL_MapRGB(ecran->format, 0, 0, 0));
+        SDL_BlitSurface(p->bas[p->down],NULL, ecran,&p->position_joueur);
+        SDL_Flip(ecran);
+
+        p->up=0;
+        p->down=0;
+        p->left=0;
+}
+}
