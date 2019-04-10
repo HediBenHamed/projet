@@ -1,0 +1,24 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include "initdisobjet.h"
+#include "collisiontrigo.h" 
+#include "background.h"
+
+int coffreouvet(SDL_Rect poshero,SDL_Surface *perso,objet *coffre,char coffreouvet[50])
+{int c; //1 si ouvert 2 si fermé
+c=collision_trigo(perso,coffre->image,poshero,coffre->position);
+if (c==1) {
+
+  coffre->image=IMG_Load("coffreouvet.png");
+   SDL_BlitSurface (b.img,&b.bckg,&ecrann,NULL);
+  Afficherobjet (coffreouvert,*ecran) ; 
+SDL_Flip(ecran) ; 
+}
+
+
+
+  return c;
+} 
+
