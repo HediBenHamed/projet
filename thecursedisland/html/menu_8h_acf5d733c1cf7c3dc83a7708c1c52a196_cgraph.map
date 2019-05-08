@@ -1,0 +1,51 @@
+<map id="gameover" name="gameover">
+<area shape="rect" id="node2" href="$menu_8c.html#ad9f30d36c0a70221acb362452afc38b8" title="to launch the game " alt="" coords="132,917,171,944"/>
+<area shape="rect" id="node3" href="$menu_8c.html#a167de5c801e1fb0fc07e02a4dc3d73e8" title="to initialise the blood " alt="" coords="241,5,346,32"/>
+<area shape="rect" id="node4" href="$menu_8c.html#a953605ed770e55ad1c490114476ace57" title="to initialise the enigme " alt="" coords="232,56,355,83"/>
+<area shape="rect" id="node5" href="$menu_8c.html#a0020dff20fd6bc5f62e7a9147d274275" title="to initialise ennemy " alt="" coords="229,107,358,133"/>
+<area shape="rect" id="node6" href="$menu_8c.html#a7a164a7d230a96c910a7e0e696c8c03d" title="to initialise the object " alt="" coords="239,157,347,184"/>
+<area shape="rect" id="node7" href="$menu_8h.html#ae535fc6745154b816aa9825adac55eb0" title="initialiser_background" alt="" coords="220,208,367,235"/>
+<area shape="rect" id="node8" href="$menu_8c.html#a2a0efac43c5f22fd3c5c7e64e43364a1" title="to initialise the the score " alt="" coords="239,259,348,285"/>
+<area shape="rect" id="node9" href="$menu_8c.html#a06f27ec9adbe4608cecc15c9795c4df4" title="to initialise the gift " alt="" coords="241,309,345,336"/>
+<area shape="rect" id="node10" href="$menu_8c.html#ac36ee7e617de2ce42e934ec3b7ed10c9" title="to INITIALISÉ Player " alt="" coords="241,360,346,387"/>
+<area shape="rect" id="node11" href="$menu_8c.html#a1773831ab21784a9648d27370ab604bd" title="to initialise life " alt="" coords="245,411,342,437"/>
+<area shape="rect" id="node12" href="$menu_8c.html#ae4886397ad0a72d5e36d561329cebc5f" title="to initialis the time " alt="" coords="250,461,337,488"/>
+<area shape="rect" id="node13" href="$menu_8c.html#ababf07494b17fdab0045483beeb59d30" title="to update the time " alt="" coords="231,512,355,539"/>
+<area shape="rect" id="node14" href="$menu_8c.html#acf5d733c1cf7c3dc83a7708c1c52a196" title="to create the interface gameover " alt="" coords="254,563,333,589"/>
+<area shape="rect" id="node15" href="$menu_8c.html#a838f2a1cfeba7f21e36f3540fe8123f7" title="to create interface winner " alt="" coords="263,613,323,640"/>
+<area shape="rect" id="node16" href="$menu_8c.html#aa30c9d4821492c3ca0fc86594aa45e6b" title="to save the game " alt="" coords="268,664,319,691"/>
+<area shape="rect" id="node17" href="$menu_8c.html#a22397c5f28c9c11a512e4eaa53d2e30e" title="to move the Player " alt="" coords="265,715,322,741"/>
+<area shape="rect" id="node18" href="$menu_8c.html#a9884d6bf44cb8192cb522b6072c74395" title="to add score " alt="" coords="265,765,322,792"/>
+<area shape="rect" id="node21" href="$menu_8c.html#a6a8f68714f8aeef790d2b7a296b149c5" title="to dettect collision with object " alt="" coords="274,816,313,843"/>
+<area shape="rect" id="node26" href="$menu_8c.html#a2671c8bee3265c3679aff31b103e17dd" title="to add blood " alt="" coords="260,867,327,893"/>
+<area shape="rect" id="node28" href="$menu_8c.html#a9cf545043c51abf871e07ce3de53dff1" title="to dettect collision with ennemy " alt="" coords="246,917,341,944"/>
+<area shape="rect" id="node31" href="$menu_8h.html#a05d9ffd60c4082636d77009e9e61e675" title="collision_Parfaite" alt="" coords="233,968,354,995"/>
+<area shape="rect" id="node32" href="$menu_8h.html#a0fcae632885d3b2841982645aef517e8" title="scroller_background" alt="" coords="224,1019,363,1045"/>
+<area shape="rect" id="node33" href="$menu_8h.html#aed73daab58e2649f0a5c1b2207fdc482" title="afficher_background" alt="" coords="224,1069,363,1096"/>
+<area shape="rect" id="node34" href="$menu_8c.html#a87524c222c6f7c84d5ea1180eeb389d8" title="to diplay the Player " alt="" coords="245,1120,342,1147"/>
+<area shape="rect" id="node35" href="$menu_8c.html#a8a53097b7f6a378ea0e329ac9ba36824" title="to diplay the life " alt="" coords="249,1171,338,1197"/>
+<area shape="rect" id="node36" href="$menu_8c.html#afacf5ec9b08dd2a2512d48f81fba89a3" title="to display blood " alt="" coords="245,1221,342,1248"/>
+<area shape="rect" id="node37" href="$menu_8c.html#a139ce31c85d4d657b2ba34411cbc4d0a" title="to display the object " alt="" coords="243,1272,343,1299"/>
+<area shape="rect" id="node38" href="$menu_8c.html#a22331d0d48b07f0e3363355f09100e67" title="to display ennemy " alt="" coords="233,1323,354,1349"/>
+<area shape="rect" id="node39" href="$menu_8c.html#a14ab8e18c5069a3636e4c9b84efb21b7" title="to diplay the s " alt="" coords="241,1373,345,1400"/>
+<area shape="rect" id="node40" href="$menu_8c.html#aef616f9df97322cc8d82d15be2238d26" title="to count the number of enigma " alt="" coords="219,1424,368,1451"/>
+<area shape="rect" id="node41" href="$menu_8c.html#abb8438202a9f581477879798d738838c" title="to diplay the time " alt="" coords="245,1475,342,1501"/>
+<area shape="rect" id="node42" href="$menu_8c.html#a0e1a568877ea029f67e51bf78f61c790" title="to diplay the gift " alt="" coords="245,1525,341,1552"/>
+<area shape="rect" id="node43" href="$menu_8c.html#ae6e320ff61f611ccadbfda8fd182e6c1" title="to free the surface " alt="" coords="258,1576,329,1603"/>
+<area shape="rect" id="node44" href="$menu_8c.html#a13064c63e4faef34f7f1ee9080ee9090" title="to free surface " alt="" coords="251,1627,335,1653"/>
+<area shape="rect" id="node45" href="$menu_8c.html#ab83357909e27b6056abd3748ca43d854" title="to free the surface " alt="" coords="245,1677,341,1704"/>
+<area shape="rect" id="node46" href="$menu_8c.html#ad2e65bedf96e7dbef9a9492d385f3c17" title="to free the surface " alt="" coords="240,1728,347,1755"/>
+<area shape="rect" id="node47" href="$menu_8c.html#a36cd326ac67ff7c42bc288f83c1cddc0" title="to free the surface " alt="" coords="253,1779,334,1805"/>
+<area shape="rect" id="node48" href="$menu_8c.html#a08036ce48af956d71451d2faa793810b" title="to free the surface " alt="" coords="243,1829,343,1856"/>
+<area shape="rect" id="node49" href="$menu_8h.html#a66a2627b593eec45f6e9cd3b109f0311" title="liberer_background" alt="" coords="228,1880,359,1907"/>
+<area shape="rect" id="node50" href="$menu_8h.html#a2fb9b6ab55879257b0d74bd5cd2eae61" title="GetPixel" alt="" coords="257,1931,329,1957"/>
+<area shape="rect" id="node19" href="$menu_8c.html#a070fa99d2124913d3b66e9153ff09a62" title="to detect colision " alt="" coords="429,664,558,691"/>
+<area shape="rect" id="node20" href="$menu_8c.html#a131235ce9fed8446f494c331dde39a19" title="to update the score " alt="" coords="452,715,535,741"/>
+<area shape="rect" id="node22" href="$menu_8c.html#aecdf0da52304b1754ab4ec925cf2df4a" title="to detect colision " alt="" coords="427,765,560,792"/>
+<area shape="rect" id="node23" href="$menu_8c.html#a4e9bdeecf9699333e3c2f4abd8c11a15" title="to check the enigma " alt="" coords="465,816,522,843"/>
+<area shape="rect" id="node24" href="$menu_8c.html#a61c7a4ac34762307c8ad873e71774a43" title="to have got random number " alt="" coords="621,791,687,817"/>
+<area shape="rect" id="node25" href="$menu_8c.html#a5a314cc07fdf19a5c20f56f52922c437" title="to prepare the enigma 1 " alt="" coords="619,841,689,868"/>
+<area shape="rect" id="node27" href="$menu_8c.html#a1f33a8b93a007e596947e6ec9a577d47" title="to detect colision " alt="" coords="428,867,559,893"/>
+<area shape="rect" id="node29" href="$menu_8c.html#a2fb280a319c3e12ac1424f8f2c8eba9b" title="to detect colision " alt="" coords="416,917,571,944"/>
+<area shape="rect" id="node30" href="$menu_8c.html#a47e54aae2f905f680435149d5732cf7c" title="to update life " alt="" coords="449,968,537,995"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="enigme1" name="enigme1">
+<area shape="rect" id="node2" href="$menu_8h.html#a4e9bdeecf9699333e3c2f4abd8c11a15" title="to check the enigma " alt="" coords="124,107,181,133"/>
+<area shape="rect" id="node3" href="$menu_8h.html#a6a8f68714f8aeef790d2b7a296b149c5" title="to dettect collision with object " alt="" coords="229,107,268,133"/>
+<area shape="rect" id="node4" href="$menu_8h.html#ad9f30d36c0a70221acb362452afc38b8" title="to launch the game " alt="" coords="316,107,355,133"/>
+<area shape="rect" id="node5" href="$menu_8h.html#a00efbb661cd2d22c95153d14747ff330" title="To create the interface choose player . " alt="" coords="410,56,474,83"/>
+<area shape="rect" id="node13" href="$menu_8h.html#a838f2a1cfeba7f21e36f3540fe8123f7" title="to create interface winner " alt="" coords="412,107,472,133"/>
+<area shape="rect" id="node14" href="$menu_8h.html#acf5d733c1cf7c3dc83a7708c1c52a196" title="to create the interface gameover " alt="" coords="403,157,481,184"/>
+<area shape="rect" id="node6" href="$menu_8h.html#a86df1daa92a7ac7dd413caad6a4497a7" title="To create the interface play . " alt="" coords="529,56,576,83"/>
+<area shape="rect" id="node7" href="$menu_8h.html#a73a233d643abda13fce9fd308ec4aa9f" title="To create the principale interface of menu . " alt="" coords="624,56,679,83"/>
+<area shape="rect" id="node8" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="732,5,783,32"/>
+<area shape="rect" id="node9" href="$menu_8h.html#aa15c8f25e316b0f586c78293e7a6f0ef" title="To create the interface setting . " alt="" coords="727,56,788,83"/>
+<area shape="rect" id="node10" href="$menu_8h.html#aefa18d8439d3397c087730918f3f8650" title="To create the interface resolution . " alt="" coords="836,5,915,32"/>
+<area shape="rect" id="node11" href="$menu_8h.html#a676f878742395d4eacb5e6c64c4bc044" title="To create the interface controls . " alt="" coords="841,56,909,83"/>
+<area shape="rect" id="node12" href="$menu_8h.html#a2c5972d48f5dc92025d6594a1af9c97e" title="To create the interface sounds . " alt="" coords="843,107,907,133"/>
+</map>

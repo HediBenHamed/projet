@@ -1,0 +1,10 @@
+<map id="controls" name="controls">
+<area shape="rect" id="node2" href="$menu_8h.html#aa15c8f25e316b0f586c78293e7a6f0ef" title="To create the interface setting . " alt="" coords="121,132,183,159"/>
+<area shape="rect" id="node3" href="$menu_8h.html#a73a233d643abda13fce9fd308ec4aa9f" title="To create the principale interface of menu . " alt="" coords="243,56,297,83"/>
+<area shape="rect" id="node7" href="$menu_8h.html#aefa18d8439d3397c087730918f3f8650" title="To create the interface resolution . " alt="" coords="231,107,309,133"/>
+<area shape="rect" id="node8" href="$menu_8h.html#a676f878742395d4eacb5e6c64c4bc044" title="To create the interface controls . " alt="" coords="236,157,304,184"/>
+<area shape="rect" id="node9" href="$menu_8h.html#a2c5972d48f5dc92025d6594a1af9c97e" title="To create the interface sounds . " alt="" coords="238,208,302,235"/>
+<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="357,5,408,32"/>
+<area shape="rect" id="node5" href="$menu_8h.html#a86df1daa92a7ac7dd413caad6a4497a7" title="To create the interface play . " alt="" coords="359,56,406,83"/>
+<area shape="rect" id="node6" href="$menu_8h.html#a00efbb661cd2d22c95153d14747ff330" title="To create the interface choose player . " alt="" coords="456,56,520,83"/>
+</map>
